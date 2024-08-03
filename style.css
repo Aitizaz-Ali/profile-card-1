@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75,300..800;1,75,300..800&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #ecebeb;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-card{
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+    position: relative;
+    width: 20rem;
+    min-width: 20rem;
+    height: 82vh;
+    box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
+    background-color: #fff;
+    padding-top: 80px;
+    transition: 0.5s;
+
+}
+.profile-card img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    right: 18%;
+    border: 3px solid #fff;
+    transform: translateX(-50%);
+
+}
+.name{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(25, 23, 23);
+}
+.name i{
+    color: rgb(23, 23, 250);
+}
+.description{
+    font-size: 14px;
+    font-weight: 400;
+}
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+    color: gray;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: gray;
+    color: #fff;
+    transition: all ease-in 0.2s;
+}
+h1{
+   width: 100%;
+   justify-content: left;
+   font-size: 20px;
+   margin: 20px ;
+   padding-left: 26px;
+
+    
+}
+p{
+  font-size: 14px;
+  padding: 0 10px 0 26px;
+    
+}
